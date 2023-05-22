@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko"
+        android:inputType="text"
+        android:text="Title"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+    <EditText
+        android:hint="Enter a title for the crime."
+        android:id="@+id/crime_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Details"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"/>
+
+    <Button
+        android:id="@+id/crimeDate"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/amiko"
+        android:text="Date" />
+
+    <CheckBox
+        android:id="@+id/crimeSolved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko"
+        android:text="Solved" />
+</LinearLayout>
